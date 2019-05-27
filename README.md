@@ -1,4 +1,4 @@
-<h1>Start of Program</h1>
+<h1>Start of program</h1>
 <p> 
 At the start, my program asks the user three questions:<br>
 </p>
@@ -11,7 +11,7 @@ At the start, my program asks the user three questions:<br>
 <p>
 3) How many hard disks does the simulated computer have? The enumeration of hard disks starts with 0.
 </p>
-<h1>How To Use</h1>
+<h1>How to use</h1>
 <p>
   <b>'A'</b> -- Means that a new process has been created. When a new process arrives, the program creates its PCB and places the process in the end of the ready-queue. Initially, no memory is allocated for the new process. Note: Processes start from 2 (1 belongs to the first system process) and go up.
 </p>
