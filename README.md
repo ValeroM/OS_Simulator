@@ -2,7 +2,7 @@
 <p>
 At the start, my program asks the user three questions:<br>
 1) How much RAM memory is there on the simulated computer? The program receives the number in bytes (no kilobytes or words). The user can enter any number up to 4000000000 (4 billions). <br>
-2) What is the size of a page/frame. The enumeration of pages starts from 0. <br>
+2) What is the size of a page/frame? The enumeration of pages starts from 0. <br>
 3) How many hard disks does the simulated computer have? The enumeration of hard disks starts with 0.
 </p>
 
@@ -54,9 +54,7 @@ At the start, my program asks the user three questions:<br>
 <h1>How to run program</h1>
 <p>To compile: <br>
 make</p> 
-<br>
 <p>To clean: <br> 
 make clean</p> 
-<br>
 <p>To quit:<br> 
 control + c</p>
