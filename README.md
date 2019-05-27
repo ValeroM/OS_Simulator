@@ -1,11 +1,11 @@
 <h1>Start of Program</h1>
 <p>
-At the start, my program asks the user three questions:
+At the start, my program asks the user three questions:<br>
 1) How much RAM memory is there on the simulated computer? The program receives the number in bytes (no kilobytes or words). The user can enter any number up to 4000000000 (4 billions). <br>
 2) What is the size of a page/frame. The enumeration of pages starts from 0. <br>
 3) How many hard disks does the simulated computer have? The enumeration of hard disks starts with 0.
 </p>
-<br>
+
 <h1>How To Use</h1>
 <p>
   <b>'A'</b> -- Means that a new process has been created. When a new process arrives, the program creates its PCB and places the process in the end of the ready-queue. Initially, no memory is allocated for the new process. Note: Processes start from 2 (1 belongs to the first system process) and go up.
