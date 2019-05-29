@@ -24,7 +24,6 @@ public:
   ~OS() = default;  // Destructor
   OS();
   void AssignIdToProcessAndPlaceToRQ(const PCB & process);
-  int CurrentProcessInCPU() const;
   void S_rSnapshot() const;
   void RoundRobin();
   void ForkingFromProcessInCPU(const PCB & process);
