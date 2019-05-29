@@ -33,8 +33,6 @@ void OS::AssignIdToProcessAndPlaceToRQ(const PCB & process) {
   }
 }
 
-int OS::CurrentProcessInCPU() const {  return CPU; }
-
 void OS::S_rSnapshot() const {
   if (CPU >= 2) { 
     std::cout << "Current process using the CPU: pid " << CPU << std::endl;
